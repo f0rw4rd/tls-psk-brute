@@ -1,0 +1,62 @@
+# Compiled binaries
+*.o
+*.out
+psk_server
+psk_client
+full_psk_server
+full_psk_client
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Temporary files
+*.tmp
+*.temp
+
+# Hash files
+*.hash
+
+# Test output
+test_output/
+captures/
+
+# Build artifacts
+build/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.csr
+
+# John the Ripper files
+john.pot
+john.rec
+
+.venv
+*.txt
+tls_psk_bruteforce
